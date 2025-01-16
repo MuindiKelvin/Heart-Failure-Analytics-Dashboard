@@ -45,7 +45,7 @@ def determine_lifestyle_changes(predict_type, new_person):
 st.set_page_config(layout="wide", page_title="Heart Failure Classification App")
 
 # Streamlit app
-st.title("🏥 NHS Insight: Healthcare Analytics Dashboard 📊🩺")
+st.title("🏥 Heart Attack Risk Analytics Dashboard 📊🩺")
 
 # Theme selection
 theme = st.sidebar.selectbox("Choose theme", ["Light", "Blue"])
